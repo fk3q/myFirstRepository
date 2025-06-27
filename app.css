@@ -1,0 +1,79 @@
+.card {
+    background-color: #ffffff;
+    max-width: 400px;
+    margin: 100px auto; /* center on the page */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  body {
+    background-color: #e0f0ff;  /* light blue background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* full viewport height */
+    margin: 0;
+  }
+  .fur{
+    padding: 8px, 12px;
+    margin: 8px, 0px, 0px;
+    background-color: #ffffff;
+    width: 300px, auto;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* align-items center
+background-image linear-gradient(to right bottom, rgb(239, 246, 255), rgb(224, 231, 255))
+border-bottom-color rgb(228, 228, 231)
+border-bottom-style solid
+border-bottom-width 0px
+border-image-outset 0
+border-image-repeat stretch
+border-image-slice 100%
+border-image-source none
+border-image-width 1
+border-left-color rgb(228, 228, 231)
+border-left-style solid
+border-left-width 0px
+border-right-color rgb(228, 228, 231)
+border-right-style solid
+border-right-width 0px
+border-top-color rgb(228, 228, 231)
+border-top-style solid
+border-top-width 0px
+box-sizing border-box
+color rgb(9, 9, 11)
+display flex
+font-family Inter, "Inter Fallback"
+font-feature-settings normal
+font-style normal
+font-variation-settings normal
+height 695.2px
+justify-content center
+line-height 24px
+min-height 695.2px
+padding-bottom 16px
+padding-left 16px
+padding-right 16px
+padding-top 16px
+tab-size 4
+text-size-adjust 100%
+unicode-bidi isolate
+width 981.6px
+-webkit-tap-highlight-color rgba(0, 0, 0, 0) */

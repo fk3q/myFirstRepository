@@ -1,0 +1,54 @@
+<!-- <h1>Basic of React Forms</h1>
+<form action="" method="post">
+    <input type="text" placeholder="enter name" [formControl]="name">
+    <br>
+    <br>
+    <input type="text" placeholder="enter password" [formControl]="password">
+    <br>
+    <br>
+    <button type="button" (click)="displayValue()">Login</button>
+    <button type="button" (click)="setValues()">Set Values in Fields</button>
+
+
+
+
+</form> -->
+
+<title>LMS - Learning Management System</title>
+<body>
+    
+
+<div class="card">
+
+
+    <form action="" style="text-align: center;">
+
+        
+            <h1>Welcome to LMS</h1>
+            <h3 style="color: #71717A; font: 14pxInter,'Inter Fallback'; margin: 6px, 0px, 0px; ">Sign in to access your
+                learning dashboard</h3>
+            <br>
+
+            <h2>Email</h2>
+
+            
+            <input class="fur" type="text" placeholder="Enter your email" #emailaddressID>
+            <h2>Password</h2>
+            <input class="fur" type="text" placeholder="Enter your password" #passwordID>
+            <br>
+            <button type="submit" style="background-color: black; color: white; width: 200px; padding: 16px;" (click)="validateEmail(emailaddressID.value)">Sign
+                In</button>
+            <br>
+            <br>
+            <p style="color: #71717A; font: 14pxInter,'Inter Fallback'; margin: 6px, 0px, 0px; ">Demo accounts (use any password):</p>
+            <br>
+             <div style="color: #71717A; font: 14pxInter,'Inter Fallback'; margin: 6px, 0px, 0px; ">Admin:admin&#64;company.com</div>
+        
+
+
+
+
+    </form>
+
+</div>
+</body>
